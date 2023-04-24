@@ -1,0 +1,18 @@
+Neste exercício, você criará um sistema simples para gerenciar pedidos e entregas de um
+e-commerce. Há produtos, clientes, pedidos e entregadores.
+Classe Produto: Crie uma classe chamada "Produto" com os atributos: id (int), nome
+(String), descricao (String) e preco (double). Adicione métodos para definir (set) e
+obter (get) os valores desses atributos e um método para exibir as informações
+completas do produto dentro de uma String.
+Classe Cliente: Crie uma classe chamada "Cliente" com os atributos: id (int), nome
+(String), cpf (String), endereco (String) e telefone (String). Adicione métodos para
+definir (set) e obter (get) os valores desses atributos.Classe Pedido: Crie uma classe chamada "Pedido" com os atributos: id (int), cliente
+(objeto da classe Cliente), produto (objeto da classe Produto), quantidade (int) e
+status (String - "Aguardando", "Em trânsito" ou "Entregue"). Adicione métodos para
+definir (set) e obter (get) os valores desses atributos e um método para calcular o
+valor total do pedido (quantidade * preço do produto).
+Classe Entregador: Crie uma classe chamada "Entregador" com os atributos: id (int),
+nome (String) e veiculo (String). Adicione métodos para definir (set) e obter (get) os
+valores desses atributos e um método chamado "pegarPedido" que recebe um
+objeto da classe Pedido e altera o status do pedido para "Em trânsito". Adicione um
+método chamado "entregarPedido" que altere o status do pedido para "Entregue".
