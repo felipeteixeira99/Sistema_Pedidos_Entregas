@@ -16,3 +16,5 @@ nome (String) e veiculo (String). Adicione métodos para definir (set) e obter (
 valores desses atributos e um método chamado "pegarPedido" que recebe um
 objeto da classe Pedido e altera o status do pedido para "Em trânsito". Adicione um
 método chamado "entregarPedido" que altere o status do pedido para "Entregue".
+
+alteração no codigo 
