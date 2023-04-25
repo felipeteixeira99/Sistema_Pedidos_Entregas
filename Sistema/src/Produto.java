@@ -27,8 +27,9 @@ public class Produto {
 		this.descricao = descricao;
 	}	
 	
+	//Retorna em formato de str todos os valores armazenados nos atributos da classe 
 	@Override
 	public String toString() {
-		return  id + nome + descricao;
+		return  ("ID:" + id + "\n" + "Nome:" + nome + "\n" + "Descricao:" + descricao);
 	}
 }
