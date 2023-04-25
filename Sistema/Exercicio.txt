@@ -17,6 +17,7 @@ Classe Pedido: Crie uma classe chamada "Pedido" com os atributos: id (int), clie
 status (String - "Aguardando", "Em trânsito" ou "Entregue"). Adicione métodos para
 definir (set) e obter (get) os valores desses atributos e um método para calcular o
 valor total do pedido (quantidade * preço do produto).
+
 Classe Entregador:
 
 Crie uma classe chamada "Entregador" com os atributos: id (int),
