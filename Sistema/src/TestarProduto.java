@@ -11,8 +11,5 @@ public class TestarProduto {
 		produto.toString();
 		
 		System.out.println(produto.toString());
-		
-		//alteracao
-
 	}
 }
