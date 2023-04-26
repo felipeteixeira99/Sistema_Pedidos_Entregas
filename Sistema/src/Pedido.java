@@ -44,5 +44,6 @@ public class Pedido {
 		this.status = status;
 	}
 	
+	//alteracao
 	
 }
