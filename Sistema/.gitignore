@@ -1,1 +1,32 @@
 /bin/
+
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos de log
+*.log
+*.out
+*.txt
+
+# Arquivos de configuração
+*.properties
+*.xml
+*.yml
+*.config
+
+# Arquivos gerados por IDEs
+.idea/
+.classpath
+.project
+.settings/
+
+# Arquivos de cache
+.cache/
+.gradle/
+
+# Arquivos de saída de ferramentas de construção
+.target/
+.build/
