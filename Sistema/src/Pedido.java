@@ -39,8 +39,12 @@ public class Pedido {
 	}
 	public String getStatus() {
 		return this.status;
+		//TODO Aguardando, Em transito, Entregue 
 	}
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	
+	//TODO Metodo para calcular o valor total do pedido
+	// quantidade * preco do produto
 }
