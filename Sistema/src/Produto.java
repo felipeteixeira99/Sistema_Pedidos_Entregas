@@ -7,6 +7,7 @@ public class Produto {
 	private int id;
 	private String nome;
 	private String descricao;
+	private double preco;
 	
 	public int getId() {
 		return this.id;
@@ -26,6 +27,14 @@ public class Produto {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}	
+	
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
 	
 	//Retorna em formato de str todos os valores armazenados nos atributos da classe 
 	@Override

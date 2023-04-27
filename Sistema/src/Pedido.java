@@ -45,6 +45,13 @@ public class Pedido {
 		this.status = status;
 	}
 	
+	//Funcao que calcula o valor total do pedido 
+	public double getValor() {
+		int valor = 0;
+		valor = (int) (this.getQuantidade() * this.produto.getPreco());
+		return valor;
+		}
+
 	//TODO Metodo para calcular o valor total do pedido
 	// quantidade * preco do produto
 }
