@@ -47,5 +47,3 @@ public class Cliente {
 	}
 }
 
-//teste de alteracao pelo o vs code
-
