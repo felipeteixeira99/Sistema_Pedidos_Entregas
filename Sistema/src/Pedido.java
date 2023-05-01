@@ -11,7 +11,7 @@ public class Pedido {
 	private Cliente cliente;
 	private Produto produto;
 	private int quantidade;
-	private String status;
+	private StatusPedido status = StatusPedido.AGUARDANDO;
 	
 	public int getId() {
 		return this.id;
@@ -37,22 +37,17 @@ public class Pedido {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-	public String getStatus() {
+	public StatusPedido getStatus() {
 		return this.status;
 		//TODO Aguardando, Em transito, Entregue 
 	}
-	public void setStatus(String status) {
+	public void setStatus(StatusPedido status) {
 		this.status = status;
 	}
 	
 	//Funcao que calcula o valor total do pedido 
 	public double Valor() {
-		int valor = 0;
-		valor = (int) (this.getQuantidade() * this.produto.getPreco());
+		int valor = (int) (this.getQuantidade() * this.produto.getPreco());
 		return valor;
 		}
-	
-
-	//TODO Metodo para calcular o valor total do pedido
-	// quantidade * preco do produto
-}
+	}

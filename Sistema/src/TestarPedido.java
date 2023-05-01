@@ -14,7 +14,6 @@ public class TestarPedido {
 		pedido.getProduto().setNome("Pizza de Bacon"); //nome do produto
 		pedido.setQuantidade(2); //quantidade de produtos dentro do pedido
 		pedido.getProduto().setPreco(10); //preco do produto 
-		pedido.setStatus("Aguardando"); //primeiro status do pedido
 		
 		//Dados do entregador
 		entregador.setNome("Motoqueiro Fantasma");

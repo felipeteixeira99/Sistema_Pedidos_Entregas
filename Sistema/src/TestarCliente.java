@@ -10,6 +10,7 @@ public class TestarCliente {
 		cliente.setEndereco("Rua 1, N 256");
 		cliente.setTelefone("(62)9999-5656");
 
+		System.out.println(cliente);
 		System.out.println(cliente.toString());
 	}
 

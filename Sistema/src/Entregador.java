@@ -30,11 +30,11 @@ public class Entregador {
 	}
 	
 	public void PegarPedido(Pedido pedido) {
-		pedido.setStatus("Em transito");
+		pedido.setStatus(StatusPedido.EM_TRANSITO);
 	}
 	
 	public void entregarPedido(Pedido pedido) {
-		pedido.setStatus("Entregue");
+		pedido.setStatus(StatusPedido.ENTREGUE);
 	}
 	
 	//Teste entregador
@@ -51,7 +51,7 @@ public class Entregador {
 		System.out.println("Nome do Entregador: " + entregador.getNome());
 		System.out.println("Veiculo: " + entregador.getVeiculo());*/
 		
-		pedido.setStatus("Aguardando");
+
 		System.out.println(pedido.getStatus());
 		entregador.PegarPedido(pedido);
 		System.out.println(pedido.getStatus());
